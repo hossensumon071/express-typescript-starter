@@ -1,4 +1,3 @@
-
 export type name = {
   firstName: string;
   middleName: string;
@@ -34,7 +33,7 @@ export type Student = {
   presentAddress: string;
   permanentAddress: string;
   guardian: guardien;
-  localGuadien: localGuadien
-  profileImg?: string
-  isActive: "active" | "blocked"
+  localGuadien: localGuadien;
+  profileImg?: string;
+  isActive: 'active' | 'blocked';
 };
